@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>じゃんけんゲーム</title>
+</head>
+<body>
+あなたの選ぶ手は
+グー
+チョキ
+パー
+あいこ
+コンピュータの勝ち
+あなたの勝ち
+じゃんけんの結果
+プログラムが選ぶ手：
+勝負の結果は
+</body>
+</html>

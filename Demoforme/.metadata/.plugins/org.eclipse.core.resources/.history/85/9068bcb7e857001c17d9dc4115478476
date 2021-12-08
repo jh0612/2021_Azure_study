@@ -1,0 +1,45 @@
+
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class JyankenServlet
+ */
+@WebServlet("/JyankenServlet")
+public class JyankenServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public JyankenServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+//		response.getWriter().append("Served at: ").append(request.getContextPath());
+		String teHito = request.getParameter("te");
+		
+		double rand = Math.random();
+		String teComp;
+		if(rand <= 0.33333) {
+			teComp = "グー";
+		} else if(rand <= 0.66666) {
+			teComp = "チョキ";
+		} else {
+			teComp = "パー";
+		}
+		
+		
+	}
+}

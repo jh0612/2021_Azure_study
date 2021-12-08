@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>自動販売機</title>
+    <meta name="author" content="reiwaxr">
+    <style type="text/css">
+      table{
+      	margin-left: auto;
+        margin-right: auto;
+        border="0";
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;">自動販売機</h1>
+    <p style="text-align: center;">CD65-2　１１８４</p>
+    <p style="text-align: center;">蒋皓</p>
+    <table style="width: 318px;margin-left:=" "="" auto;margin-right:="" auto;="">
+      <tbody>
+        <tr>
+          <td style="width: 118px; margin-left: 17px; text-align: center;"><img
+              src="file:///home/jh/java/Demoforme/Myproj2/src/main/webapp/WEB-INF/img/sweets_cookie.png" alt="クッキー"
+              title="クッキー" style="width: 150px; height: 150px;"><br>
+          </td>
+          <td style="width: 205.933px; text-align: center;"><img src="file:///home/jh/java/Demoforme/Myproj2/src/main/webapp/WEB-INF/img/coffee_weinercoffee.png"
+              alt="コーヒー" title="コーヒー" style="width: 150px; height: 150px;"><br>
+          </td>
+          <td style="width: 102px; text-align: center;"><img src="file:///home/jh/java/Demoforme/Myproj2/src/main/webapp/WEB-INF/img/can_juice.png"
+              alt="ジュース" title="ジュース" style="width: 150px; height: 150px;"></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;">２００円<br>
+          </td>
+          <td style="text-align: center;">３００円<br>
+          </td>
+          <td style="text-align: center;">１４０円<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"><input name="text1" value="0" size="5"
+              type="text">個<br>
+          </td>
+          <td style="text-align: right;"><input name="text2" value="0" size="5"
+              type="text">個 </td>
+          <td style="text-align: right;"><input name="text3" value="0" size="5"
+              type="text">個 </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <p style="text-align: center;">合計金額：円</p>
+    <p style="text-align: center;">支払金額：<input name="text4" value="0" size="5" type="text">個</p>
+    <p style="text-align: center;">おつり：円</p>
+    <div style="text-align: center;"><input name="button1" value="購入" type="button">
+      &nbsp; &nbsp;&nbsp; <input name="button2" value="クリア" type="button"></div>
+    
+  </body>
+</html>

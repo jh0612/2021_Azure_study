@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>簡単な電卓</title>
+</head>
+<body>
+	<div style="text-align: center;">四則演算処理<br> <br>
+	<h3 align="center">CD65-2 K020C1184 蔣晧</h3>
+	<form action="KeisanServlet" method="GET">
+	<table style="width: 70%;" align="center">
+	<tbody>
+	<tr>
+	<td>1つ目の数<br> <input name="kazu1" value="30" type="text"></td>
+	<td><input name="syurui" value="tasu" type="radio" checked="checked">+<br>
+	<input name="syurui" value="hiku" type="radio">-<br>
+	<input name="syurui" value="kake" type="radio">×<br>
+	<input name="syurui" value="wari" type="radio">÷</td>
+	<td>2つ目の数<br> <input name="kazu2" value="20" type="text"></td>
+	<td><input value="=" type="submit"><br></td>
+	</tr>
+	</tbody>
+	</table>
+	</form>
+	</div>
+</body>
+</html>

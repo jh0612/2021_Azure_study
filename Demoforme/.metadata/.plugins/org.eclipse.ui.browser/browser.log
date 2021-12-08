@@ -1,0 +1,67 @@
+
+11月 29, 2021 24:55:33.810 NEW SESSION
+11月 29, 2021 24:55:33.810 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 24:55:34.99 
+11月 29, 2021 24:55:34.99 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 24:55:34.99 
+11月 29, 2021 24:55:34.593 ATTENTION: default value of option mesa_glthread overridden by environment.
+
+11月 29, 2021 01:07:29.405 NEW SESSION
+11月 29, 2021 01:07:29.406 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 01:07:29.667 
+11月 29, 2021 01:07:29.667 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 01:07:29.667 
+11月 29, 2021 01:07:30.199 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 01:07:45.768 
+11月 29, 2021 01:07:45.769 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 01:07:45.769 
+11月 29, 2021 01:07:45.887 IPDL protocol error: Handler returned error code!
+11月 29, 2021 01:07:45.888 
+11月 29, 2021 01:07:45.888 ###!!! [Parent][DispatchAsyncMessage] Error: PBackground::Msg_MessagePortForceClose Processing error: message was deserialized, but the handler returned false (indicating failure)
+11月 29, 2021 01:07:45.888 
+11月 29, 2021 01:11:25.156 IPDL protocol error: Handler returned error code!
+11月 29, 2021 01:11:25.156 
+11月 29, 2021 01:11:25.156 ###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+11月 29, 2021 01:11:25.156 
+11月 29, 2021 01:11:25.159 IPDL protocol error: Handler returned error code!
+11月 29, 2021 01:11:25.159 
+11月 29, 2021 01:11:25.159 ###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+11月 29, 2021 01:11:25.159 
+11月 29, 2021 01:11:33.346 IPDL protocol error: Handler returned error code!
+11月 29, 2021 01:11:33.346 
+11月 29, 2021 01:11:33.346 ###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ExpectFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+11月 29, 2021 01:11:33.346 
+11月 29, 2021 01:11:33.349 IPDL protocol error: Handler returned error code!
+11月 29, 2021 01:11:33.349 
+11月 29, 2021 01:11:33.349 ###!!! [Parent][DispatchAsyncMessage] Error: PClientManager::Msg_ForgetFutureClientSource Processing error: message was deserialized, but the handler returned false (indicating failure)
+11月 29, 2021 01:11:33.349 
+11月 29, 2021 01:32:06.15 
+11月 29, 2021 01:32:06.15 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 01:32:06.15 
+11月 29, 2021 01:38:45.355 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 01:38:45.628 
+11月 29, 2021 01:38:45.628 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 01:38:45.628 
+11月 29, 2021 01:38:46.138 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:03:16.377 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:03:17.236 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:03:41.350 
+11月 29, 2021 02:03:41.350 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 02:03:41.350 
+11月 29, 2021 02:06:08.392 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:06:08.704 
+11月 29, 2021 02:06:08.704 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 02:06:08.704 
+11月 29, 2021 02:06:09.299 ATTENTION: default value of option mesa_glthread overridden by environment.
+
+11月 29, 2021 02:42:25.366 NEW SESSION
+11月 29, 2021 02:42:25.366 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:42:26.97 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:42:34.153 
+11月 29, 2021 02:42:34.153 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 02:42:34.153 
+11月 29, 2021 02:42:52.253 ATTENTION: default value of option mesa_glthread overridden by environment.
+11月 29, 2021 02:42:52.512 
+11月 29, 2021 02:42:52.512 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+11月 29, 2021 02:42:52.513 
+11月 29, 2021 02:42:53.18 ATTENTION: default value of option mesa_glthread overridden by environment.
