@@ -13,3 +13,23 @@
 2021-12-08 14:07:41,715 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-12-08 14:12:09,601 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-12-08 14:24:15,577 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-12 02:52:36,952 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-12 02:52:38,773 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.IOException: 设备上没有空间
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:349)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:234)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:304)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:132)
+	at java.base/sun.nio.cs.StreamEncoder.write(StreamEncoder.java:142)
+	at java.base/java.io.OutputStreamWriter.write(OutputStreamWriter.java:223)
+	at java.base/java.io.Writer.write(Writer.java:249)
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:649)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:184)
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:152021-12-15 13:17:17,792 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-15 13:26:56,885 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-15 14:16:27,792 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-15 14:17:06,644 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-15 14:21:14,774 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-15 14:24:11,094 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
